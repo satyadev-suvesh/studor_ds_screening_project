@@ -1,0 +1,39 @@
+{
+  "primary_user": "Students seeking next-semester course recommendations",
+  "approaches": [
+    "Content-based (cosine similarity)",
+    "KNN collaborative filtering",
+    "SVD collaborative filtering",
+    "Hybrid (adaptive alpha)"
+  ],
+  "cold_start": "Multi-layer: demographic -> popularity -> diversity",
+  "similarity_metric": "Cosine similarity",
+  "evaluation": {
+    "content_based": {
+      "precision@3": 0.623,
+      "coverage": 1.0,
+      "n_evaluated": 2151
+    },
+    "knn_cf": {
+      "precision@3": 0.9958,
+      "coverage": 1.0,
+      "n_evaluated": 2151
+    },
+    "svd_cf": {
+      "precision@3": 0.9981,
+      "coverage": 1.0,
+      "n_evaluated": 2151
+    },
+    "hybrid": {
+      "precision@3": 0.8889,
+      "coverage": 1.0,
+      "n_evaluated": 2151
+    }
+  },
+  "differentiators": [
+    "Engagement-style matching (Task 1)",
+    "Risk-aware recs (Task 2)",
+    "Plain-language explanations",
+    "Course difficulty profiling"
+  ]
+}

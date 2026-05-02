@@ -1,0 +1,16 @@
+student_id,feature,original_value,change,original_risk,new_risk,risk_reduction
+429194,assess_completion_last,0.0,increased by 50%,99.6,99.6,0.0
+429194,assess_completion_slope,-0.23,increased by 50%,99.6,99.6,0.0
+429194,submission_timeliness_slope,-6.86,increased by 50%,99.6,99.6,0.0
+387378,assess_completion_last,0.0,increased by 50%,99.6,99.6,0.0
+387378,assess_completion_slope,-0.23,increased by 50%,99.6,99.6,0.0
+387378,submission_timeliness_slope,-6.86,increased by 50%,99.6,99.6,0.0
+629628,assess_completion_last,0.5,increased by 50%,97.4,97.4,0.0
+629628,assess_completion_slope,-0.11,increased by 50%,97.4,98.9,-1.5
+629628,submission_timeliness_slope,-0.46,increased by 50%,97.4,97.5,-0.0
+605905,assess_completion_last,1.0,increased by 50%,62.8,62.8,0.0
+605905,assess_completion_slope,0.0,increased by 50%,62.8,62.8,0.0
+605905,submission_timeliness_slope,0.0,increased by 50%,62.8,62.8,0.0
+678702,assess_completion_last,0.0,increased by 50%,99.7,99.7,0.0
+678702,assess_completion_slope,-0.23,increased by 50%,99.7,99.7,0.0
+678702,submission_timeliness_slope,-6.86,increased by 50%,99.7,99.7,0.0

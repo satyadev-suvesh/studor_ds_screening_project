@@ -1,0 +1,11 @@
+Student ID,Course,Risk (%),Tier,Primary Risk Factor,Actual Outcome
+2635658,DDD,99.8,Red,assess_completion_last,Withdrawn
+2410331,BBB,99.7,Red,assess_completion_last,Withdrawn
+469803,BBB,99.7,Red,assess_completion_last,Withdrawn
+512305,FFF,99.6,Red,assess_completion_last,Withdrawn
+694304,EEE,69.9,Amber,assess_completion_last,Withdrawn
+391466,CCC,54.9,Amber,assess_completion_last,Fail
+440851,FFF,53.7,Amber,assess_completion_last,Withdrawn
+494495,FFF,46.5,Green,assess_completion_last,Pass
+628669,GGG,35.1,Green,assess_completion_last,Pass
+620658,DDD,30.0,Green,assess_completion_last,Pass

@@ -1,0 +1,37 @@
+{
+  "alert_system": "PathAI Early Warning System",
+  "alert_timing": "Generated every Monday at 6:00 AM, covering the prior 7 days of activity",
+  "alert_tiers": {
+    "Red": {
+      "threshold": ">75% predicted risk",
+      "action": "Immediate outreach within 48 hours. Schedule 1-on-1 meeting with student.",
+      "notification": "Email + in-app banner + SMS to advisor"
+    },
+    "Amber": {
+      "threshold": "50-75% predicted risk",
+      "action": "Flag for weekly review. Send supportive check-in email to student.",
+      "notification": "Email + in-app banner to advisor"
+    },
+    "Green": {
+      "threshold": "<50% predicted risk",
+      "action": "No action required. Available in dashboard for reference.",
+      "notification": "Dashboard only"
+    }
+  },
+  "alert_content": [
+    "Student name and ID",
+    "Course and cohort",
+    "Current risk score (0-100%)",
+    "Risk tier (Red/Amber/Green)",
+    "Trend arrow (improving/stable/declining)",
+    "Top 3 contributing risk factors with plain-language explanation",
+    "Recommended action based on tier",
+    "Link to full student engagement profile"
+  ],
+  "threshold_rationale": "Alert threshold set at 36% to optimize for high recall (catching at-risk students) while maintaining acceptable precision (minimizing unnecessary outreach).",
+  "sample_alert_count": {
+    "Red": 8826,
+    "Amber": 5632,
+    "Green": 18135
+  }
+}

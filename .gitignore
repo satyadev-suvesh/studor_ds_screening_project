@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Ignore raw data
+data/
+
+# Ignore massive generated feature/score CSVs
+output/task1_output/weekly_features.csv
+output/task1_output/engagement_scores.csv
+output/task2_output/prediction_features.csv
+output/task3_output/student_profiles.csv
+output/task3_output/course_profiles.csv
