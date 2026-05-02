@@ -1,4 +1,4 @@
-# PathAI Engine — Studor DS Screening Project
+# PathAI Engine - Studor DS Screening Project
 
 A data-driven system that tracks student engagement, flags disengagement risk, and recommends courses, built on the [OULAD dataset](https://analyse.kmi.open.ac.uk/open_dataset) (32,593 students, 22 course-presentations).
 
